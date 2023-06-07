@@ -9,7 +9,8 @@ import (
 
 func newVersionCommand() *cobra.Command {
 	cmd := &cobra.Command{
-		Use: "version",
+		Use:   "version",
+		Short: "Prints version information about this command",
 		RunE: func(cmd *cobra.Command, args []string) error {
 			info := version.Info()
 			fmt.Printf("Foo Version: %s\n", info.VersionNumber)
