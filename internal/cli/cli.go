@@ -19,6 +19,7 @@ var log *logrus.Entry
 
 func init() {
 	cobra.OnInitialize(initLogger)
+	cobra.OnInitialize(initConfig)
 }
 
 func initLogger() {

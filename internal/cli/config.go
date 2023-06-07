@@ -10,10 +10,6 @@ import (
 
 var env *config
 
-func init() {
-	cobra.OnInitialize(initConfig)
-}
-
 func initConfig() {
 	if configFile != "" {
 		// Use config file from the flag.
