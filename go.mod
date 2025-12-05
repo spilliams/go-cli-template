@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d
-	github.com/sirupsen/logrus v1.9.0
+	github.com/sirupsen/logrus v1.9.1
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/viper v1.16.0
 )
